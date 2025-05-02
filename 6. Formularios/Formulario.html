@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario de Pesquisa</h1>
+        <form method="post" action="alguma-pesquisa.html">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <P>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </P>
+                <P>
+                    <label for="e-mail">E-mail:</label>
+                    <input type="text" id="e-mail">
+                </P>
+                <P>
+                    <label for="telefone">Contato:</label>
+                    <input type="number" id="telefone">
+                </P>
+            </section>
+            <section>
+                <h2>Dados de Pesquisa</h2>
+                <p>
+                    De 1 a 5, informe o nivel de satisfação do atendimento
+                    <input type="radio" id="1" name="satisfação">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="satisfação">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="satisfação">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="satisfação">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="satisfação">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    De 1 a 5, informe o nivel de satisfação sobre a resolução do problema
+                    <input type="radio" id="1" name="resolução">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="resolução">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="resolução">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="resolução">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="resolução">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    <label for="departamento"> Informe o departamento de atendimento </label>
+                    <select>
+                        <option>Administratico</option>
+                        <option>Comercial</option>
+                        <option>Finaceiro</option>
+                        <option>Juridico</option>
+                        <option>Marketing</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="altorização">
+                    <label for="altorização">Altorizo o compartilhamento dos dados para terceiros</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</htm>
