@@ -1,0 +1,19 @@
+
+1.
+html { font-size: 20px; }
+
+html h1 { font-size: 2rem; } 
+
+h1 > .principal { font-size: 1.4em; } 
+
+html .secundario { font-size: 1.4rem; } 
+
+
+
+2.
+
+.cor_normal {background: rgb(219, 78, 68);}
+
+.cor_clara {background: rgb(224, 105, 96);}
+
+.cor_escura {background: rgb(186, 66, 58);}
